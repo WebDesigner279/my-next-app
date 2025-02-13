@@ -14,7 +14,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Meu Portfólio NEXT JS",
-  description: "Meu portfólio com next app",
 };
 
 export default function RootLayout({

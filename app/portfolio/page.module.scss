@@ -10,16 +10,6 @@
   position: relative;
   padding-left: 30px;
   display: block;  // Garante que cada parágrafo ocupe uma linha
-
-    &::before {
-      content: '•'; // Adiciona a bolinha 
-      position: absolute;
-      left: 0;
-      top: 50%; // Alinha a bolinha verticalmente ao centro do texto 
-      transform: translateY(-50%); // Ajuste fino para centralizar a bolinha 
-      font-size: 24px; // Tamanho da bolinha 
-      color: primary; // Cor da bolinha 
-    }
   }
   
   // Olá está em negrito
@@ -61,6 +51,8 @@
 
   // Alinhamento de texto Bem vindos ao meu Portfólio
   .saldacao {
+    margin-top: 5px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;  // Alinha horizontalmente
     align-items: center;      // Alinha verticalmente
@@ -92,6 +84,7 @@
   
   // Botões
   .ctas {
+    margin-top: 40px;
     gap: 16px; // Espaço entre os botões
     display: flex;
     justify-content: center;  // Alinha horizontalmente
@@ -118,6 +111,8 @@
         background: var(--foreground);
         color: var(--background);
         gap: 8px;
+        min-width: 80px;
+
   
         @media (hover: hover) and (pointer: fine) {
           &:hover {
@@ -129,7 +124,7 @@
   
       &.secondary {
         border-color: var(--gray-alpha-200);
-        min-width: 180px;
+        min-width: 80px;
   
         @media (hover: hover) and (pointer: fine) {
           &:hover {
@@ -159,24 +154,7 @@
     grid-row-start: 3;
     display: flex;
     gap: 24px;
-  
-    // links do rodapé
-    a {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-  
-      @media (hover: hover) and (pointer: fine) {
-        &:hover {
-          text-decoration: underline;
-          text-underline-offset: 4px;
-        }
-      }
-    }
-  
-    img {
-      flex-shrink: 0;
-    }
+    margin-top: 80px;
   
     @media (max-width: 600px) {
       flex-wrap: wrap;
@@ -185,16 +163,6 @@
     }
   }
  
-  .logo {
-    @media (prefers-color-scheme: dark) {
-      filter: invert(1);
-    }
-  }
 
-  // Centralização do logo NEXT JS
-  .logo {
-    display: block;           // Garante que a imagem seja tratada como bloco
-    margin: 0 auto;           // Centraliza a imagem horizontalmente
-  }
-  
+
   
