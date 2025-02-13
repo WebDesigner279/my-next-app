@@ -1,10 +1,13 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
+
+// import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <h1 className={styles.saldacao}>Bem vindos ao meu Portfólio</h1>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -13,12 +16,22 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+
+<p className={styles.paragraph}>
+  <span className={styles.bold}>Olá,</span> sou Valter Vieira Gomes Junior
+</p>
+<p className={styles.paragraphP}>
+  Sou desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais.
+</p>
+<p className={styles.paragraphP}>
+  Experiência em tecnologias como HTML, CSS, SASS, JavaScript, TypeScript, React.js e frameworks como Next.js
+</p>
+<p className={styles.paragraphP}>
+  Estou sempre explorando novas tecnologias e aprimorando minhas habilidades para entregar soluções criativas e eficientes.
+</p>
+<p className={styles.paragraphP}>
+  Este portfólio é uma amostra do que posso fazer, e estou animado para colaborar em novos desafios! Vamos construir algo incrível juntos?
+</p>
 
         <div className={styles.ctas}>
           <a
@@ -34,7 +47,7 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Deploy now
+            Ver meus projetos
           </a>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -42,7 +55,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.secondary}
           >
-            Read our docs
+            Métodologia de trabalho
           </a>
         </div>
       </main>
@@ -59,7 +72,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Learn
+          Aprender
         </a>
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -73,7 +86,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Examples
+          Exemplos
         </a>
         <a
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -87,7 +100,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          Vá para nextjs.org →
         </a>
       </footer>
     </div>
