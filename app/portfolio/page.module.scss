@@ -16,7 +16,7 @@
   .bold {
     font-weight: bold;  // Torna o texto em negrito
   }
-  
+
   .page {
     --gray-rgb: 0, 0, 0;
     --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -51,8 +51,8 @@
 
   // Alinhamento de texto Bem vindos ao meu Portfólio
   .saldacao {
-    margin-top: 5px;
-    margin-bottom: 40px;
+    margin-top: -45px;
+    margin-bottom: -16px;
     display: flex;
     justify-content: center;  // Alinha horizontalmente
     align-items: center;      // Alinha verticalmente
@@ -128,6 +128,10 @@
     display: flex;
     justify-content: center;  // Alinha horizontalmente
     align-items: center;      // Alinha verticalmente
+
+    @media (max-width: 600px) {
+      margin-top: -40px;
+    }
   
     a {
       appearance: none;
@@ -145,12 +149,13 @@
       line-height: 20px;
       font-weight: 500;
       margin-top: 40px;
+      width: 10%; // Garante que os botões tenham a mesma largura
       
       &.primary {
         background: var(--foreground);
         color: var(--background);
         gap: 8px;
-        min-width: 80px;
+        width: 180px;
 
   
         @media (hover: hover) and (pointer: fine) {
@@ -163,7 +168,7 @@
   
       &.secondary {
         border-color: var(--gray-alpha-200);
-        min-width: 80px;
+        width: 180px;
   
         @media (hover: hover) and (pointer: fine) {
           &:hover {

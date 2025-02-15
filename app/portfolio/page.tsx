@@ -7,7 +7,7 @@ export default function Portfolio() {
       <main className={styles.main}>
         <h1 className={styles.saldacao}>Bem-vindo ao meu portfólio!</h1>
 
-        <p className={styles.paragraphP}>
+        {/* <p className={styles.paragraphP}>
           Cada projeto reflete minha dedicação a entender as necessidades do usuário, trabalhar em estreita colaboração com equipes e entregar soluções criativas e funcionais.
         </p>
         <p className={styles.paragraphP}>
@@ -18,11 +18,11 @@ export default function Portfolio() {
         </p>
         <p className={styles.paragraphP}>
           Se você tem um projeto em mente ou deseja saber mais sobre meu trabalho, fique à vontade para entrar em contato. Estou sempre aberto a novas oportunidades de colaborar e expandir meus conhecimentos.
-        </p>
+        </p> */}
 
         {/* Sessão cards com 3 colunas e 2 linhas */}
         <div className={styles.cardGrid}>
-          
+
             <div className={styles.card}>
               <h3>Projeto</h3>
               <p>Descrição breve do projeto</p>
