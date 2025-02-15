@@ -8,17 +8,52 @@ export default function Portfolio() {
         <h1 className={styles.saldacao}>Bem-vindo ao meu portfólio!</h1>
 
         <p className={styles.paragraphP}>
-        Cada projeto reflete minha dedicação a entender as necessidades do usuário, trabalhar em estreita colaboração com equipes e entregar soluções criativas e funcionais. 
+          Cada projeto reflete minha dedicação a entender as necessidades do usuário, trabalhar em estreita colaboração com equipes e entregar soluções criativas e funcionais.
         </p>
         <p className={styles.paragraphP}>
-        Meu foco principal é em front-end, utilizando as tecnologias mais recentes, HTML, CSS, SASS, JavaScript, TypeScript, React.js e frameworks como Next.js, para construir páginas dinâmicas e responsivas que atendam a todos os dispositivos.
+          Meu foco principal é em front-end, utilizando as tecnologias mais recentes, HTML, CSS, SASS, JavaScript, TypeScript, React.js e frameworks como Next.js, para construir páginas dinâmicas e responsivas que atendam a todos os dispositivos.
         </p>
         <p className={styles.paragraphP}>
-        Aqui você encontra uma variedade de projetos, desde sites simples e modernos até aplicações mais complexas, sempre com a preocupação em aprimorar a experiência do usuário.
+          Aqui você encontra uma variedade de projetos, desde sites simples e modernos até aplicações mais complexas, sempre com a preocupação em aprimorar a experiência do usuário.
         </p>
         <p className={styles.paragraphP}>
-        Se você tem um projeto em mente ou deseja saber mais sobre meu trabalho, fique à vontade para entrar em contato. Estou sempre aberto a novas oportunidades de colaborar e expandir meus conhecimentos.
+          Se você tem um projeto em mente ou deseja saber mais sobre meu trabalho, fique à vontade para entrar em contato. Estou sempre aberto a novas oportunidades de colaborar e expandir meus conhecimentos.
         </p>
+
+        {/* Sessão cards com 3 colunas e 2 linhas */}
+        <div className={styles.cardGrid}>
+          
+            <div className={styles.card}>
+              <h3>Projeto</h3>
+              <p>Descrição breve do projeto</p>
+              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+            </div>
+            <div className={styles.card}>
+              <h3>Projeto</h3>
+              <p>Descrição breve do projeto</p>
+              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+            </div>
+            <div className={styles.card}>
+              <h3>Projeto</h3>
+              <p>Descrição breve do projeto</p>
+              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+            </div>
+            <div className={styles.card}>
+              <h3>Projeto</h3>
+              <p>Descrição breve do projeto</p>
+              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+            </div>
+            <div className={styles.card}>
+              <h3>Projeto</h3>
+              <p>Descrição breve do projeto</p>
+              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+            </div>
+            <div className={styles.card}>
+              <h3>Projeto</h3>
+              <p>Descrição breve do projeto</p>
+              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+            </div>
+        </div>
 
         {/* Botões Next e Back */}
         <div className={styles.ctas}>

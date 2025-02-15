@@ -9,18 +9,19 @@
 .paragraphP {
   position: relative;
   padding-left: 30px;
-  display: block;  // Garante que cada parágrafo ocupe uma linha
+  display: block; 
 
-    &::before {
-      content: '•'; // Adiciona a bolinha 
-      position: absolute;
-      left: 0;
-      top: 50%; // Alinha a bolinha verticalmente ao centro do texto 
-      transform: translateY(-50%); // Ajuste fino para centralizar a bolinha 
-      font-size: 24px; // Tamanho da bolinha 
-      color: primary; // Cor da bolinha 
-    }
+  &::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 0; // Alinha com a primeira linha do texto
+    font-size: 24px;
+    color: primary;
+    line-height: 1; // Garante alinhamento correto com a primeira linha
   }
+}
+
   
   // Olá está em negrito
   .bold {
@@ -89,7 +90,7 @@
       align-items: center;
     }
   }
-  
+
   // Botões
   .ctas {
     gap: 16px; // Espaço entre os botões
