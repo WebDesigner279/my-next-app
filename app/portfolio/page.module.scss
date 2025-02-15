@@ -1,3 +1,8 @@
+$paragraph-color: #727272;
+$link-color: #727272;
+$linkHover-color: #ccc;
+$tituloCard-color: #ccc;
+$saudacao-color: #ccc;
 
 .paragraph {
     text-align: center;
@@ -11,7 +16,7 @@
   padding-left: 30px;
   display: block;  // Garante que cada parágrafo ocupe uma linha
   }
-  
+
   // Olá está em negrito
   .bold {
     font-weight: bold;  // Torna o texto em negrito
@@ -57,6 +62,7 @@
     justify-content: center;  // Alinha horizontalmente
     align-items: center;      // Alinha verticalmente
     text-align: center;       // Centraliza o texto
+    color: $saudacao-color;
   }
   
   .main {
@@ -99,6 +105,20 @@
     }
     
     .card {
+      p {
+        color: $paragraph-color;
+      }
+
+       h3 {
+        color: $tituloCard-color;
+      }
+
+      h1 {
+        color: $tituloCard-color;
+      }
+    }
+
+    .card {
       padding: 20px;
       border: 2px solid var(--button-secondary-hover);
       border-radius: 8px;
@@ -113,11 +133,12 @@
     .cardLink {
       display: inline-block;
       margin-top: 10px;
-      color: var(--primary-color);
+      color: $link-color;
       text-decoration: none;
     
       &:hover {
         text-decoration: underline;
+        color: $linkHover-color;
       }
     }
   

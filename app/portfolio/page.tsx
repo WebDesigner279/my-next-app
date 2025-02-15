@@ -7,51 +7,46 @@ export default function Portfolio() {
       <main className={styles.main}>
         <h1 className={styles.saldacao}>Bem-vindo ao meu portfólio!</h1>
 
-        {/* <p className={styles.paragraphP}>
-          Cada projeto reflete minha dedicação a entender as necessidades do usuário, trabalhar em estreita colaboração com equipes e entregar soluções criativas e funcionais.
-        </p>
-        <p className={styles.paragraphP}>
-          Meu foco principal é em front-end, utilizando as tecnologias mais recentes, HTML, CSS, SASS, JavaScript, TypeScript, React.js e frameworks como Next.js, para construir páginas dinâmicas e responsivas que atendam a todos os dispositivos.
-        </p>
-        <p className={styles.paragraphP}>
-          Aqui você encontra uma variedade de projetos, desde sites simples e modernos até aplicações mais complexas, sempre com a preocupação em aprimorar a experiência do usuário.
-        </p>
-        <p className={styles.paragraphP}>
-          Se você tem um projeto em mente ou deseja saber mais sobre meu trabalho, fique à vontade para entrar em contato. Estou sempre aberto a novas oportunidades de colaborar e expandir meus conhecimentos.
-        </p> */}
-
         {/* Sessão cards com 3 colunas e 2 linhas */}
         <div className={styles.cardGrid}>
 
             <div className={styles.card}>
-              <h3>Projeto</h3>
-              <p>Descrição breve do projeto</p>
-              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+              <h3>Website: Portal de Serviços</h3>
+              <p>Desenvolvido com HTML, SCSS, Next.js Javascript</p>
+              <Link href="#" className={styles.cardLink}>Visualizar</Link>
+            </div>
+            <div className={styles.card}>
+              <h3>Website: Controle de Estacionamento</h3>
+              <p>Desenvolvido com HTML, CSS, Javascript</p>
+              <Link href="https://parking-controle-estacionamento.vercel.app/" 
+              className={styles.cardLink} 
+              target="_blank" 
+              rel="noopener noreferrer">Visualizar</Link>
+            </div>
+            <div className={styles.card}>
+              <h3>Website: Bob's Restaurantes</h3>
+              <p>Desenvolvido com HTML, CSS, Bootstrap, Javascript</p>
+              <Link href="https://bobs-restaurantes.vercel.app/" 
+              className={styles.cardLink}
+              target="_blank" 
+              rel="noopener noreferrer">Visualizar</Link>
+            </div>
+            <div className={styles.card}>
+              <h3>Todo-List: Lista de Tarefas</h3>
+              <p>Desenvolvido com HTML, CSS, Vue.js, Javascript</p>
+              <Link href="https://todo-list-vue-brown-one.vercel.app/" className={styles.cardLink}
+              target="_blank" 
+              rel="noopener noreferrer">Visualizar</Link>
             </div>
             <div className={styles.card}>
               <h3>Projeto</h3>
               <p>Descrição breve do projeto</p>
-              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+              <Link href="#" className={styles.cardLink}>Visualizar</Link>
             </div>
             <div className={styles.card}>
               <h3>Projeto</h3>
               <p>Descrição breve do projeto</p>
-              <Link href="#" className={styles.cardLink}>Ver mais</Link>
-            </div>
-            <div className={styles.card}>
-              <h3>Projeto</h3>
-              <p>Descrição breve do projeto</p>
-              <Link href="#" className={styles.cardLink}>Ver mais</Link>
-            </div>
-            <div className={styles.card}>
-              <h3>Projeto</h3>
-              <p>Descrição breve do projeto</p>
-              <Link href="#" className={styles.cardLink}>Ver mais</Link>
-            </div>
-            <div className={styles.card}>
-              <h3>Projeto</h3>
-              <p>Descrição breve do projeto</p>
-              <Link href="#" className={styles.cardLink}>Ver mais</Link>
+              <Link href="#" className={styles.cardLink}>Visualizar</Link>
             </div>
         </div>
 
@@ -60,7 +55,7 @@ export default function Portfolio() {
           <Link href="/home" className={styles.secondary}>
             Back
           </Link>
-          <Link href="#" className={styles.primary}>
+          <Link href="/chatbot" className={styles.primary}>
             Next
           </Link>
         </div>

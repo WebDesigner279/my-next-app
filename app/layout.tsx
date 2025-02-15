@@ -14,7 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Meu Portfólio NEXT JS",
+  icons: {
+    icon: "/vercel.svg", // Referência ao favicon
+  },
 };
+
 
 export default function RootLayout({
   children,

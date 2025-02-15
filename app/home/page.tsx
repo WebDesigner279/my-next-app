@@ -23,7 +23,7 @@ export default function Home() {
           Sou desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais.
         </p>
         <p className={styles.paragraphP}>
-          Experiência em tecnologias como HTML, CSS, SASS, JavaScript, TypeScript, React.js e frameworks como Next.js.
+          Experiência em tecnologias como HTML, CSS, SCSS, JavaScript, TypeScript, React.js e frameworks como Next.js.
         </p>
         <p className={styles.paragraphP}>
           Estou sempre explorando novas tecnologias e aprimorando minhas habilidades para entregar soluções criativas e eficientes.
