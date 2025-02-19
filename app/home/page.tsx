@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         {/* <h1 className={styles.saldacao}>Bem vindos ao meu Portfólio</h1> */}
         <Image
-          className={styles.logo}
+          className={styles.logoNextJs}
           src="/next.svg"
           alt="Next.js logo"
           width={180}
@@ -35,7 +35,7 @@ export default function Home() {
         <div className={styles.ctas}>
           <Link href="/portfolio" className={styles.primary}>
             <Image
-              className={styles.logo}
+              className={styles.logoVercel}
               src="/vercel.svg"
               alt="Vercel logomark"
               width={20}

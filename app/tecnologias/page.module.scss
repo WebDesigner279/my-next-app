@@ -125,6 +125,36 @@ $saudacao-color: #ccc;
     }
   }
 
+  .logoNextJs {
+    padding: 16px;
+    display: flex; // Ativa o flexbox
+    justify-content: center; // Centraliza horizontalmente
+    align-items: center; // Centraliza verticalmente
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid var(--button-secondary-hover);
+
+    &:hover {
+      background: var(--button-secondary-hover);
+      border-color: transparent;
+    }
+  }
+
+  .logoVite {
+    padding: 16px;
+    display: flex; // Ativa o flexbox
+    justify-content: center; // Centraliza horizontalmente
+    align-items: center; // Centraliza verticalmente
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid var(--button-secondary-hover);
+
+    &:hover {
+      background: var(--button-secondary-hover);
+      border-color: transparent;
+    }
+  }
+
   .page {
     --gray-rgb: 0, 0, 0;
     --gray-alpha-200: rgba(var(--gray-rgb), 0.08);

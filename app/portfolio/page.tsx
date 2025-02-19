@@ -55,7 +55,7 @@ export default function Portfolio() {
           <Link href="/home" className={styles.secondary}>
             Back
           </Link>
-          <Link href="/chatbot" className={styles.primary}>
+          <Link href="/tecnologias" className={styles.primary}>
             Next
           </Link>
         </div>

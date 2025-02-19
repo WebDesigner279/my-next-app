@@ -34,7 +34,7 @@ export default function Portfolio() {
             <Image
               className={styles.logoVue}
               src="/vuejs.svg"
-              alt="logo-js"
+              alt="logo-vue-js"
               width={200}
               height={200}
             />
@@ -75,6 +75,24 @@ export default function Portfolio() {
                 height={200}
               />
           </div>
+          <div className={styles.card}>
+              <Image
+                className={styles.logoNextJs}
+                src="/next.svg"
+                alt="logo-next.js"
+                width={200}
+                height={200}
+              />
+          </div>
+          <div className={styles.card}>
+              <Image
+                className={styles.logoVite}
+                src="/vite-logo.svg"
+                alt="logo-vite"
+                width={200}
+                height={200}
+              />
+          </div>
        </div>
 
         {/* Botões Next e Back */}
@@ -82,7 +100,7 @@ export default function Portfolio() {
           <Link href="/home" className={styles.secondary}>
             Back
           </Link>
-          <Link href="/chatbot" className={styles.primary}>
+          <Link href="/curriculo" className={styles.primary}>
             Next
           </Link>
         </div>
