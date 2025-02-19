@@ -23,7 +23,7 @@ export default function Home() {
           Sou desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais.
         </p>
         <p className={styles.paragraphP}>
-          Experiência em tecnologias como HTML, CSS, SCSS, JavaScript, TypeScript, React.js e frameworks como Next.js.
+        Experiência com tecnologias como HTML, CSS, SCSS, JavaScript e TypeScript, além de frameworks e bibliotecas como Vue.js, React.js e Next.js.
         </p>
         <p className={styles.paragraphP}>
           Estou sempre explorando novas tecnologias e aprimorando minhas habilidades para entregar soluções criativas e eficientes.
@@ -43,8 +43,8 @@ export default function Home() {
             />
             Ver meus projetos
           </Link>
-          <Link href="#" className={styles.secondary}>
-            Metodologia de trabalho
+          <Link href="/tecnologias" className={styles.secondary}>
+          Tecnologias que utilizo
           </Link>
         </div>
       </main>

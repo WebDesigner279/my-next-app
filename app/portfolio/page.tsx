@@ -12,12 +12,12 @@ export default function Portfolio() {
 
             <div className={styles.card}>
               <h3>Website: Portal de Serviços</h3>
-              <p>Desenvolvido com HTML, SCSS, Next.js Javascript</p>
+              <p>Plataforma web dinâmica, construída com HTML, SCSS, Next.js e JavaScript.</p>
               <Link href="#" className={styles.cardLink}>Visualizar</Link>
             </div>
             <div className={styles.card}>
               <h3>Website: Controle de Estacionamento</h3>
-              <p>Desenvolvido com HTML, CSS, Javascript</p>
+              <p>Sistema web para gerenciamento de vagas, criado com HTML, CSS e JavaScript.</p>
               <Link href="https://parking-controle-estacionamento.vercel.app/" 
               className={styles.cardLink} 
               target="_blank" 
@@ -25,15 +25,15 @@ export default function Portfolio() {
             </div>
             <div className={styles.card}>
               <h3>Website: Bob's Restaurantes</h3>
-              <p>Desenvolvido com HTML, CSS, Bootstrap, Javascript</p>
+              <p>Plataforma web moderna e responsiva, construída com HTML, CSS, Bootstrap e JavaScript.</p>
               <Link href="https://bobs-restaurantes.vercel.app/" 
               className={styles.cardLink}
               target="_blank" 
               rel="noopener noreferrer">Visualizar</Link>
             </div>
             <div className={styles.card}>
-              <h3>Todo-List: Lista de Tarefas</h3>
-              <p>Desenvolvido com HTML, CSS, Vue.js, Javascript</p>
+              <h3>Todo-List: Gerenciador de Tarefas</h3>
+              <p>Gerenciador de tarefas interativo, desenvolvido com HTML, CSS, Vue.js e JavaScript.</p>
               <Link href="https://todo-list-vue-brown-one.vercel.app/" className={styles.cardLink}
               target="_blank" 
               rel="noopener noreferrer">Visualizar</Link>
