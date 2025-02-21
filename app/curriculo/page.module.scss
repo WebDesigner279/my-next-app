@@ -47,6 +47,22 @@ $saudacao-color: #ccc;
     font-weight: bold;  // Torna o texto em negrito
   }
 
+  // Adiciona linha abaixo de todo conteúdo do paragrafo
+  .paragraph {
+    position: relative;
+    margin-bottom: 20px;
+  
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid $paragraph-color;
+      margin-top: 10px;
+    }
+  }
+  
+  
+
   .page {
     --gray-rgb: 0, 0, 0;
     --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -128,7 +144,45 @@ $saudacao-color: #ccc;
         grid-template-columns: repeat(1, 1fr); // 1 coluna para celulares
       }
     }
-    
+
+    // Grid dos ícones das redes sociais
+.cardGridRedes {
+  display: flex;
+  justify-content: center; // Centraliza os ícones horizontalmente
+  align-items: center; // Alinha os ícones verticalmente
+  gap: 16px; // Espaçamento de 16px entre os ícones
+  margin: 8px 0;
+}
+
+// Estilização dos ícones das redes sociais
+.cardRedes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: auto; // Mantém o tamanho natural do ícone sem forçar largura
+
+  img {
+    width: 100px; // Tamanho uniforme para os ícones
+    height: 100px;
+  }
+
+  .logoGit {
+    width: 80px;
+  }
+
+  @media (max-width: 600px) {
+    img {
+      width: 80px; // Reduz tamanho dos ícones em telas menores
+      height: 80px;
+    }
+
+    .logoGit {
+      width: 65px;
+    }
+  }
+}
+
     .card {
       p {
         color: $paragraph-color;
@@ -172,6 +226,7 @@ $saudacao-color: #ccc;
 
     @media (max-width: 600px) {
       margin-top: -40px;
+      gap: 4%;
     }
   
     a {
