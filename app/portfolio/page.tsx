@@ -13,7 +13,7 @@ export default function Portfolio() {
             <div className={styles.card}>
               <h3>Website: Portal de Serviços</h3>
               <p>Plataforma web dinâmica, construída com HTML, SCSS, Next.js e JavaScript.</p>
-              <Link href="#" className={styles.cardLink}>Visualizar</Link>
+              <Link href="/pagina-em-construcao" className={styles.cardLink}>Visualizar</Link>
             </div>
             <div className={styles.card}>
               <h3>Website: Controle de Estacionamento</h3>
@@ -41,12 +41,12 @@ export default function Portfolio() {
             <div className={styles.card}>
               <h3>Projeto</h3>
               <p>Descrição breve do projeto</p>
-              <Link href="#" className={styles.cardLink}>Visualizar</Link>
+              <Link href="/pagina-em-construcao" className={styles.cardLink}>Visualizar</Link>
             </div>
             <div className={styles.card}>
               <h3>Projeto</h3>
               <p>Descrição breve do projeto</p>
-              <Link href="#" className={styles.cardLink}>Visualizar</Link>
+              <Link href="/pagina-em-construcao" className={styles.cardLink}>Visualizar</Link>
             </div>
         </div>
 

@@ -17,7 +17,6 @@
   }
  }
 
-  
 $paragraph-color: #ccc;
 $link-color: #727272;
 $linkHover-color: #ccc;
@@ -61,8 +60,6 @@ $saudacao-color: #ccc;
     }
   }
   
-  
-
   .page {
     --gray-rgb: 0, 0, 0;
     --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -145,7 +142,7 @@ $saudacao-color: #ccc;
       }
     }
 
-    // Grid dos ícones das redes sociais
+// Grid dos ícones das redes sociais
 .cardGridRedes {
   display: flex;
   justify-content: center; // Centraliza os ícones horizontalmente
@@ -153,6 +150,14 @@ $saudacao-color: #ccc;
   gap: 16px; // Espaçamento de 16px entre os ícones
   margin: 8px 0;
 }
+
+// novo
+
+
+
+
+// fim novo
+
 
 // Estilização dos ícones das redes sociais
 .cardRedes {
@@ -214,8 +219,7 @@ $saudacao-color: #ccc;
         max-width: 100%; // Em telas menores, o card ocupa toda a largura
       }
     }
-    
-  
+
   // Botões
   .ctas {
     margin-top: 4px;
@@ -228,8 +232,9 @@ $saudacao-color: #ccc;
       margin-top: -40px;
       gap: 4%;
     }
-  
+
     a {
+      // pointer-events: none;
       appearance: none;
       border-radius: 128px;
       height: 48px;
