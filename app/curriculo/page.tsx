@@ -73,7 +73,7 @@ export default function Portfolio() {
           <div className={styles.cardRedes}>
             <Link href="https://www.linkedin.com/in/valter-dev-frontend" target="_blank">
               <Image
-                className={styles.logo}
+                className={styles.logoLinkedin}
                 src="/logo-linkedin.svg"
                 alt="LinkedIn Logo"
                 width={100}
@@ -88,7 +88,7 @@ export default function Portfolio() {
           <Link href="/home" className={styles.secondary}>
             Back
           </Link>
-          <Link href="#" className={styles.primary}>
+          <Link href="https://drive.google.com/file/d/1sgKd2kPg0PKOy6rcAk7GsO9vvv96OMQ9/view?usp=drive_link" target="_blank" className={styles.primary}>
             Download
           </Link>
         </div>

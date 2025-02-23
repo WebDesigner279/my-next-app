@@ -20,7 +20,7 @@ export default function Home() {
           <span className={styles.bold}>Olá,</span> sou Valter Vieira Gomes Junior
         </p>
         <p className={styles.paragraphP}>
-          Sou desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais.
+          Desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais.
         </p>
         <p className={styles.paragraphP}>
         Experiência com tecnologias como HTML, CSS, SCSS, JavaScript e TypeScript, além de frameworks e bibliotecas como Vue.js, React.js e Next.js.
