@@ -24,7 +24,7 @@ export default function Portfolio() {
               rel="noopener noreferrer">Visualizar</Link>
             </div>
             <div className={styles.card}>
-              <h3>Website: Bob's Restaurantes</h3>
+              <h3>Website: Bob&apos;s Restaurantes</h3>
               <p>Plataforma web moderna e responsiva, construída com HTML, CSS, Bootstrap e JavaScript.</p>
               <Link href="https://bobs-restaurantes.vercel.app/" 
               className={styles.cardLink}
